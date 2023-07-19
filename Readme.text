@@ -1,0 +1,22 @@
+﻿1. You need to install PyCharm Community Edition or Visual Studio Code to run the program.
+
+2. Open pycharm project
+
+3. Go to the "Terminal" tab at the bottom of the window. To install following libraries, type the following and press Enter for:
+
+	i. 	opencv (pip install opencv-python)
+	ii.	pytesseract (pip install pytesseract)
+	iii	imutils (pip install imutils)
+
+4. Change the pytesseract.pytesseract.tesseract_cmd = r"c:\Program Files\Tesseract-OCR\tesseract.exe" to your own location of tesseract.exe
+
+5. Change cv2.imread('9100.jpg') to other provided .jpg file.
+	e.g. 41.jpg
+
+6. Run the code
+
+7. Press Enter to see the results of images and text:
+   - Original image
+   - Final image (plate with rectangular boundary contour)
+   - Cropped image (only the number plate)
+   - number of plate will be shown in the "Run" tab and the message
